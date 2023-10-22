@@ -1,0 +1,929 @@
+<mxfile host="Electron" modified="2023-10-22T16:25:15.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="q1E6p5pQiRjvxCwmcv5L" version="22.0.2" type="device" pages="9">
+  <diagram name="7" id="YE77ajZLiz3sV_d_TWl4">
+    <mxGraphModel dx="1996" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="647vJ7EQpc-0n_toEtpg-15" value="UC07: Adicionar Medicamento" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="319" y="10" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-16" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-17" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="216" as="sourcePoint" />
+            <mxPoint x="660" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-21" value="CriarMedicamento()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="190" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-41" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-43" value="Indicar(Nome, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-44" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="320" as="sourcePoint" />
+            <mxPoint x="660" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-45" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="370" as="sourcePoint" />
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-46" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ilhkmZXPqZn2iJ9TToX5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="647vJ7EQpc-0n_toEtpg-48" target="647vJ7EQpc-0n_toEtpg-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-48" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="319" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-49" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="330" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-51" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-53" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="398" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-54" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="500" as="sourcePoint" />
+            <mxPoint x="660" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="647vJ7EQpc-0n_toEtpg-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ConfirmarCriaçãoMedicamento()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="470" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-3" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="560" as="sourcePoint" />
+            <mxPoint x="130" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-4" value="ValidaDados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-5" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="614.5" as="sourcePoint" />
+            <mxPoint x="130" y="614.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-6" value="PedeConfirmaçãoFarmaceutico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="584.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="680" as="sourcePoint" />
+            <mxPoint x="660" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ConfirmaCriação()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="650" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-9" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="740" as="sourcePoint" />
+            <mxPoint x="125" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtoFD3x68EB8bKwIe5mf-10" value="ValidaCriação, AssociaInformação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="285" y="710" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-15" value=":7a Não indicou Informação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="6" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-16" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="46" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-17" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="207" as="sourcePoint" />
+            <mxPoint x="830" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1359.5" y="207" as="sourcePoint" />
+            <mxPoint x="1360" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="276" as="sourcePoint" />
+            <mxPoint x="1360" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-21" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="326" as="sourcePoint" />
+            <mxPoint x="1360" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-22" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="960" y="246" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1019" y="296" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-24" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="286" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="376" as="sourcePoint" />
+            <mxPoint x="1360" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-26" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="354" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-27" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="226" as="sourcePoint" />
+            <mxPoint x="830" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0yrqblUCI94mBKRjMWM-28" value="Indicadadosemfalta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="196" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="201" width="570" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-18" value="impede criação até ser valida" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="236" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-19" value=":7b Substancia não Existir" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="6" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-20" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="46" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-21" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1520" y="207" as="sourcePoint" />
+            <mxPoint x="1520" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2049.5" y="207" as="sourcePoint" />
+            <mxPoint x="2050" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1520" y="316" as="sourcePoint" />
+            <mxPoint x="2050" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1520" y="366" as="sourcePoint" />
+            <mxPoint x="2050" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-26" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="276" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1709" y="336" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-28" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="336" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-29" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1520" y="416" as="sourcePoint" />
+            <mxPoint x="2050" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-30" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="394" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-31" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2050" y="226" as="sourcePoint" />
+            <mxPoint x="1520" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5D58ApscheyZcFCWMX65-32" value="IndicaSubstanciaNãoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1705" y="196" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-15" value=":7c já tiver substancia ativa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2420" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-16" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="70" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-17" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="2710" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="231" as="sourcePoint" />
+            <mxPoint x="2240" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2769.5" y="231" as="sourcePoint" />
+            <mxPoint x="2770" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="310" as="sourcePoint" />
+            <mxPoint x="2760" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-21" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="360" as="sourcePoint" />
+            <mxPoint x="2760" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-22" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="280" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2419" y="330" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-24" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="330" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="410" as="sourcePoint" />
+            <mxPoint x="2760" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-26" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2420" y="388" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-27" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2770" y="250" as="sourcePoint" />
+            <mxPoint x="2240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCCrMfyP8UVlgjh5X8gG-28" value="SubstanciaExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2450" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-1" value="8a: O utilizador cancela a criação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="3114" y="40" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="2895" y="70" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="3395" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2925" y="231" as="sourcePoint" />
+            <mxPoint x="2925" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3454.5" y="231" as="sourcePoint" />
+            <mxPoint x="3455" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2925" y="308" as="sourcePoint" />
+            <mxPoint x="3455" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZMTDbIqgETokw4-kDh9-7" value="CancelarCriação()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3135" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-1" value="9a: Se não indicou a informação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="3819" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="3600" y="60" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="4100" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3630" y="221" as="sourcePoint" />
+            <mxPoint x="3630" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4159.5" y="221" as="sourcePoint" />
+            <mxPoint x="4160" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3630" y="310" as="sourcePoint" />
+            <mxPoint x="4160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-7" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4155" y="250" as="sourcePoint" />
+            <mxPoint x="3625" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-8" value="InformaDadosEmFalta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3835" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6smeFcGedYHMh7FO7ZJb-9" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3750" y="270" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="4290" y="205" width="570" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-2" value="impede criação até ser valida" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4850" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-3" value="9b:Se a substancia ativa não existir&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="4499" y="20" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-4" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="4280" y="50" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-5" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="4780" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4310" y="211" as="sourcePoint" />
+            <mxPoint x="4310" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4839.5" y="211" as="sourcePoint" />
+            <mxPoint x="4840" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-8" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4835" y="240" as="sourcePoint" />
+            <mxPoint x="4305" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-9" value="SubstanciaAtivaNaoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4505" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4310" y="320" as="sourcePoint" />
+            <mxPoint x="4840" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zuW0SQbFUOt4dOIPAoR-11" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4440" y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-1" value="9c:Se o medicamento ja existir" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="5219" y="22" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="5000" y="52" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="5500" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5030" y="213" as="sourcePoint" />
+            <mxPoint x="5030" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5559.5" y="213" as="sourcePoint" />
+            <mxPoint x="5560" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-6" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5555" y="242" as="sourcePoint" />
+            <mxPoint x="5025" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpQRnei1MkbwzePJYXvK-7" value="MedicamentoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5230" y="202" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-1" value="10a:O utilizador cancela a criação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="5939" y="22" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="5720" y="52" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="6220" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5750" y="213" as="sourcePoint" />
+            <mxPoint x="5750" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6279.5" y="213" as="sourcePoint" />
+            <mxPoint x="6280" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5750" y="302" as="sourcePoint" />
+            <mxPoint x="6280" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-7" value="CancelarCriação()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5950" y="272" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-8" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6280" y="252" as="sourcePoint" />
+            <mxPoint x="5750" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8UUlDuNM5XDlKRlkXYT-9" value="PedeConfirmaçãoFarmaceutico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5920" y="222" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1x2-GR5zrQQgBNeN3mNO" name="7A">
+    <mxGraphModel dx="1098" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="we86xPWcJQvlbCBYJUN_-1" value=":7a Não indicou Informação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="310" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="660" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-11" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="320" as="sourcePoint" />
+            <mxPoint x="660" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-12" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="240" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="319" y="290" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-14" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="370" as="sourcePoint" />
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we86xPWcJQvlbCBYJUN_-16" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="348" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTqwfPYIHFZ32Da7vgxB-1" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTqwfPYIHFZ32Da7vgxB-2" value="Indicadadosemfalta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="335" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gfhlG0HbNpvfzEDp5L9x" name="7b">
+    <mxGraphModel dx="952" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6j59--AvtOnkdHtGsBPo-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="195" width="570" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6j59--AvtOnkdHtGsBPo-2" value="impede criação até ser valida" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-1" value=":7b Substancia não Existir" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="660" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-8" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="330" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-10" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-11" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="410" as="sourcePoint" />
+            <mxPoint x="660" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-12" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="388" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-13" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmRKE3l56hX_cRqDo0Td-14" value="IndicaSubstanciaNãoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dtlS6XjgqpdvGOChwvJM" name="7c">
+    <mxGraphModel dx="952" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-3" value=":7c já tiver substancia ativa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-4" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-5" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="650" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-10" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Indica(nomeSubstanciaAtiva)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="300" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-12" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-14" value="TerminarSubstanciaAtiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="358" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-15" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8Gaq09M1VoDuj_9-nGY-16" value="SubstanciaExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t1o0pRinwiNxp-tcJZam" name="8a">
+    <mxGraphModel dx="1150" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-1" value="8a: O utilizador cancela a criação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="319" y="10" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="278" as="sourcePoint" />
+            <mxPoint x="660" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-jWru0HW6TrF-QdZD3Y1-27" value="CancelarCriação()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0N9rOV3zwDbR9aS6lEev" name="9a">
+    <mxGraphModel dx="952" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-1" value="9a: Se não indicou a informação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="319" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-8" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="230" as="sourcePoint" />
+            <mxPoint x="125" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-9" value="InformaDadosEmFalta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLzR5k-lhDfvR5MvDZq-12" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S0xjZirOW4AcLM6bOHdX" name="9b">
+    <mxGraphModel dx="952" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qeJHGvshWb41HRIlAjXt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="195" width="570" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qeJHGvshWb41HRIlAjXt-2" value="impede criação até ser valida" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-1" value="9b:Se a substancia ativa não existir&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="319" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-2" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-7" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="230" as="sourcePoint" />
+            <mxPoint x="125" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfJMBI9iczJV_UkKMxN5-8" value="SubstanciaAtivaNaoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdE84ZwM1hJc854T88IO-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdE84ZwM1hJc854T88IO-2" value="Indica(nomeMedicamneto, forma, dosagem)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zRmKc3iIbMMBte3eDXJN" name="9c">
+    <mxGraphModel dx="1150" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-3" value="9c:Se o medicamento ja existir" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="319" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-4" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-5" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-8" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="230" as="sourcePoint" />
+            <mxPoint x="125" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKVhGzWpG1QY8WbZfYcX-9" value="MedicamentoExiste" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ScbAV0Fy4xTjx6-_0FSq" name="10a">
+    <mxGraphModel dx="1150" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-3" value="10a:O utilizador cancela a criação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="319" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-4" value=":Industria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-5" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="201" as="sourcePoint" />
+            <mxPoint x="130" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontStyle=1;fontSize=16;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="201" as="sourcePoint" />
+            <mxPoint x="660" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLXbOdzjEYkPcr-F8R7t-11" value="CancelarCriação()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDNWyN-aDbWvlkckbky_-1" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="240" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDNWyN-aDbWvlkckbky_-2" value="PedeConfirmaçãoFarmaceutico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
