@@ -1,0 +1,149 @@
+<mxfile host="Electron" modified="2023-10-22T14:58:02.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="CmFZWvJ9famUOGJa9cDY" version="22.0.2" type="device">
+  <diagram name="Page-1" id="5ZZPXkkkmvZoAoPfYjoD">
+    <mxGraphModel dx="1098" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-1" value="UC03: Criar Substância Ativa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="272" y="10" width="201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-2" value=":Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="48" y="40" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="548" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="180" as="sourcePoint" />
+            <mxPoint x="78" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="638" y="180" as="sourcePoint" />
+            <mxPoint x="640" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="200" as="sourcePoint" />
+            <mxPoint x="638" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-7" value="CriarNovaSubstanciaAtiva()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="302" y="176" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="638" y="228" as="sourcePoint" />
+            <mxPoint x="78" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-9" value="Pede o nome para a substância atiiva" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="269" y="206" width="213" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-10" value="InserirNomeSubstanciaAtiva(nome)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="278" y="242" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="266" as="sourcePoint" />
+            <mxPoint x="638" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="300" as="sourcePoint" />
+            <mxPoint x="638" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-14" value="ConfirmarCriacao()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="272" y="278" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-16" value="ValidarNomeUnicoValido()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="668" y="320" />
+              <mxPoint x="668" y="360" />
+              <mxPoint x="643" y="360" />
+            </Array>
+            <mxPoint x="638" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;alt&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="44" y="380" width="746" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-18" value="[Nome da substância já existe no Sistema]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="385" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-19" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="638" y="430" as="sourcePoint" />
+            <mxPoint x="78" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-20" value="Informa que o nome já se encontra a ser usado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="406" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="638" y="454" as="sourcePoint" />
+            <mxPoint x="78" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-23" value="Pede ao utilizador para inserir um nome único" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="245.5" y="430" width="253" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43.24000000000001" y="477.45000000000005" as="sourcePoint" />
+            <mxPoint x="790" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-25" value="[Nome da substância não existe no Sistema]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="475" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-26" value="AdicionarSubstancia()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638" y="492" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="668" y="492" />
+              <mxPoint x="668" y="532" />
+              <mxPoint x="643" y="532" />
+            </Array>
+            <mxPoint x="638" y="532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-27" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="552" as="sourcePoint" />
+            <mxPoint x="80" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-28" value="Indica que a substância foi adicionada" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="529" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GKsnDCStYvziPCUyAUUT-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43.24000000000001" y="566.45" as="sourcePoint" />
+            <mxPoint x="790" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GKsnDCStYvziPCUyAUUT-2" value="[Cancelar Criação da Substância Ativa]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GKsnDCStYvziPCUyAUUT-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="615" as="sourcePoint" />
+            <mxPoint x="640" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GKsnDCStYvziPCUyAUUT-4" value="CancelarCriacaoSA()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="293" y="590" width="138" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

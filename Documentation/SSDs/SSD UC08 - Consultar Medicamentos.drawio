@@ -1,0 +1,128 @@
+<mxfile host="Electron" modified="2023-10-22T15:18:20.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="qUZeebeGHCqk_C0B5Vt6" version="22.0.2" type="device">
+  <diagram name="Page-1" id="5ZZPXkkkmvZoAoPfYjoD">
+    <mxGraphModel dx="915" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-1" value="UC08: Consultar Medicamentos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="224" y="10" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-2" value=":Indústria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="22" y="40" width="54" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-3" value=":Sistema" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="392" y="90" width="149" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="180" as="sourcePoint" />
+            <mxPoint x="40" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="176" as="sourcePoint" />
+            <mxPoint x="470" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="200" as="sourcePoint" />
+            <mxPoint x="470" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-7" value="ListarMedicamento()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="206" y="170" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-13" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="282" as="sourcePoint" />
+            <mxPoint x="42" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-14" value="Retorna alfabeticamente os 10 primeiros medicamentos com seus detalhes (nome, forma, dosagem, substâncias)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="48" y="242" width="410" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;alt&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="321" width="800" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-18" value="[Não há mais medicamentos disponíveis]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="42" y="386" as="sourcePoint" />
+            <mxPoint x="470" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-20" value="ListarMaisDezMedicamento()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="172" y="363" width="203" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="436" as="sourcePoint" />
+            <mxPoint x="40" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-26" value="BuscarMaisDezMedicamento(order= alphabet, page + 1)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469" y="395" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="499" y="395" />
+              <mxPoint x="499" y="418" />
+            </Array>
+            <mxPoint x="470" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1hcf5iz_HZhvlH5lLM3-29" value="BuscarDezMedicamento(order= alphabet, page= 1)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="499" y="220" />
+              <mxPoint x="499" y="260" />
+              <mxPoint x="474" y="260" />
+            </Array>
+            <mxPoint x="469" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0Z9jilFEG9pyiUjYmAs-2" value="[Enquanto houver medicamentos]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="75" y="321" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_0Z9jilFEG9pyiUjYmAs-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;loop&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=45;height=15;" parent="1" vertex="1">
+          <mxGeometry x="25" y="356" width="760" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="_0Z9jilFEG9pyiUjYmAs-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="P1hcf5iz_HZhvlH5lLM3-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10.215000000000032" y="459.25" as="sourcePoint" />
+            <mxPoint x="795.2150000000001" y="459.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0Z9jilFEG9pyiUjYmAs-6" value="Informa não há mais medicamentos disponíveis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="486" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_0Z9jilFEG9pyiUjYmAs-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="506" as="sourcePoint" />
+            <mxPoint x="40" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWHhcfip9kys6kamVw_G-3" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1408" y="984" as="sourcePoint" />
+            <mxPoint x="980" y="984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWHhcfip9kys6kamVw_G-4" value="Pedir ao utilizador se quer ver mais 10 resultados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1038" y="960" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pWHhcfip9kys6kamVw_G-16" value="Retorna alfabeticamente os próximos 10 medicamentos com seus detalhes (nome, forma, dosagem, substâncias)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="396" width="410" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="pWHhcfip9kys6kamVw_G-17" value="[Não há mais Medicamentos a mostrar]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="47" y="456" width="233" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
